@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ShuffleDeck/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/ShuffleDeck.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShuffleDeck.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShuffleDeck/1.0.0": {
+      "type": "project",
+      "path": "../ShuffleDeck/ShuffleDeck.csproj",
+      "msbuildProject": "../ShuffleDeck/ShuffleDeck.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "ShuffleDeck >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lmoor\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lmoor\\source\\repos\\Projects\\ShuffleDeck\\ShuffleDeck.Web\\ShuffleDeck.Web.csproj",
+      "projectName": "ShuffleDeck.Web",
+      "projectPath": "C:\\Users\\lmoor\\source\\repos\\Projects\\ShuffleDeck\\ShuffleDeck.Web\\ShuffleDeck.Web.csproj",
+      "packagesPath": "C:\\Users\\lmoor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lmoor\\source\\repos\\Projects\\ShuffleDeck\\ShuffleDeck.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lmoor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\lmoor\\source\\repos\\Projects\\ShuffleDeck\\ShuffleDeck\\ShuffleDeck.csproj": {
+              "projectPath": "C:\\Users\\lmoor\\source\\repos\\Projects\\ShuffleDeck\\ShuffleDeck\\ShuffleDeck.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
